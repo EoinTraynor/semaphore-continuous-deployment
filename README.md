@@ -1,6 +1,5 @@
 # Semaphore Continuous Deployment
-Simple continious deploy
-Automaticly deploy an application to production when pushed/merged to master.
+Simple continiuous deployment. Automatically deploy an application to production when pushed/merged to master.
 
 ## Requirements
 - Ubuntu server running nginx
@@ -9,7 +8,7 @@ Automaticly deploy an application to production when pushed/merged to master.
 Setup Semaphore to build off the master brance of this repository
 
 ## Deployment Commands for Semaphore
-ssh into your server, setup the ssh key and use doployment commands
+ssh into your server, setup the ssh key and use deployment commands
 ```bash
 ssh-keyscan -H -p 22 45.55.153.229 >> ~/.ssh/known_hosts
 ssh root@45.55.153.229 'bash -s' < deploy.sh
