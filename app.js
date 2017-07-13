@@ -1,5 +1,5 @@
 require("express")()
     .get("/", (req, res, next) => {
-        res.send("Continious Integration")
+        res.send("New Deployment")
     })
     .listen(3000)
